@@ -1,0 +1,36 @@
+
+h1 {
+    text-align: center;
+}
+
+.global-container {
+    display: flex;
+    justify-content: center;
+}
+
+.container-column {
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    margin-top: 10px;
+}
+
+.btn {
+    display: block;
+    margin: 20 auto;
+    border: 0;
+    width: 100px;
+    height: 27px;
+}
+
+
+
+
+
+
+
+
+
+

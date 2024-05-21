@@ -1,15 +1,20 @@
 <!DOCTYPE html>
-<html lang="ru">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Page title</title>
-    <link rel="stylesheet" href="./sass/index.scss" />
-    <script type="module" src="./index.js"></script>
-  </head>
-  <body>
-    <h1>Example title</h1>
-    <!-- ❗️❗️❗️ Add partials like so for every page -->
-    <include src="./partials/example.html"></include>
-  </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Render images</h1>
+    <div id="div" class="global-container">
+        <div class="el-1 container-column" style="margin-right: 10px;"></div>
+        <div class="el-2 container-column" style="margin-right: 10px;"></div>
+        <div class="el-3 container-column"></div>
+    </div>
+    <button id="btn" class="btn">Load more</button>
+
+    <script src="./main.js"></script>
+</body>
 </html>
